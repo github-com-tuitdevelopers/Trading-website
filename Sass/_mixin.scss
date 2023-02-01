@@ -1,0 +1,10 @@
+@mixin pseuEl($width, $height, $position, $url, $top, $left){
+    content: "";
+    width: $width;
+    height: $height;
+    display: block;
+    position: $position;
+    background: url($url);
+    top: $top;
+    left: $left;
+}
