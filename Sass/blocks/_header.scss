@@ -1,0 +1,45 @@
+body {
+  background-color: #1b004e !important;
+
+  &::after {
+    content: "";
+    width: 1400px;
+    height: 700px;
+    display: block;
+    position: absolute;
+    background: url(../../images/main-back.png);
+    top: 0;
+    left: calc(50% - 700px);
+    z-index: -1;
+  }
+}
+
+.header {
+  margin-bottom: 82px;
+  width: 100%;
+  z-index: 2;
+
+  &__inner {
+    padding: 25px 0;
+  }
+
+  &-btn {
+    width: 152px;
+    padding: 15px 30px;
+    border: 2px solid #eb5757;
+    border-radius: 50px;
+  }
+
+  &-menu {
+    background-color: #1b004e;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        &::after {
+            display: none;
+          }
+    }
+}
