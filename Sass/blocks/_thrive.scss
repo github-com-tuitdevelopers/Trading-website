@@ -1,0 +1,88 @@
+.thrive {
+    background-color: #fff;
+
+
+    &---cards {
+
+
+        &--card {
+
+            &-img {
+                width: 100%;
+            }
+
+            &-div {
+                display: flex;
+                align-items: center;
+                gap: 31px;
+            }
+
+
+            &-element {
+                display: flex;
+                float: left;
+                justify-content: space-between;
+                color: #616161;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 12px;
+
+
+
+                &-img {
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:756px) {
+
+    .thrive {
+
+
+        &---cards {
+            width: 100%;
+
+            &--card {
+
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                &-img {
+                    width: 100%;
+                }
+
+                &-div {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    gap: 31px;
+                }
+
+
+                &-element {
+                    display: flex;
+                    float: left;
+                    justify-content: space-between;
+                    color: #616161;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 12px;
+
+
+
+                    &-img {
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
