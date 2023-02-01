@@ -1,0 +1,22 @@
+.download{
+    &__inner{
+        padding: 105px 0;
+    }
+
+    &-body{
+        width: 500px;
+
+        &__title{
+            width: 350px;
+            margin-bottom: 14px;
+        }
+
+        &__subtitle{
+            margin-bottom: 50px;
+        }
+
+        &__apps{
+            width: 359px;
+        }
+    }
+}
