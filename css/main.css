@@ -532,8 +532,7 @@ body::after {
 }
 .download-body__apps {
   width: 359px;
-}/*# sourceMappingURL=main.css.map */
-
+}
 
 .thrive {
   background-color: #fff;
@@ -656,4 +655,5 @@ body::after {
 }
 .footer__inner---list {
   padding-bottom: 100px;
-  border-bottom: 1px solid #BCBCBC;}
+  border-bottom: 1px solid #BCBCBC;
+}/*# sourceMappingURL=main.css.map */
